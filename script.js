@@ -804,6 +804,28 @@ document.addEventListener('DOMContentLoaded', () => {
     const writersContentEl = document.getElementById('writers-content');
     const productsContentEl = document.getElementById('products-content');
 
+    // About Modal Elements
+    const aboutModal = document.getElementById('about-modal');
+    const aboutBtn = document.getElementById('about-btn');
+    const closeAboutBtn = document.getElementById('close-about');
+
+    // Open About Modal
+    aboutBtn.addEventListener('click', () => {
+        aboutModal.classList.remove('hidden');
+    });
+
+    // Close About Modal
+    closeAboutBtn.addEventListener('click', () => {
+        aboutModal.classList.add('hidden');
+    });
+
+    // Close About Modal on Outside Click
+    aboutModal.addEventListener('click', (e) => {
+        if (e.target === aboutModal) {
+            aboutModal.classList.add('hidden');
+        }
+    });
+
     // Helper function to create content list
     function createContentList(items, isPerson = false) {
         if (!items || items.length === 0) return document.createTextNode("Bilgi bulunamadı.");

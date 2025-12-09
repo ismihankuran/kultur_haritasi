@@ -29,8 +29,13 @@
 
     <div class="app-container">
         <header class="main-header">
-            <h1>Türkçemizin Coğrafyası: Edebi Kişiler ve Yöresel Ürünler Haritası</h1>
-            <p>Şehirlerin edebi mirasını ve kültürel zenginliklerini keşfedin.</p>
+            <div class="header-text">
+                <h1>Türkçemizin Coğrafyası: Edebi Kişiler ve Yöresel Ürünler Haritası</h1>
+                <p>Şehirlerin edebi mirasını ve kültürel zenginliklerini keşfedin.</p>
+            </div>
+            <button id="about-btn" class="about-btn" aria-label="Proje Hakkında">
+                <span class="info-icon">?</span> Hakkında
+            </button>
         </header>
 
         <main id="map-container">
@@ -64,6 +69,55 @@
                         <div id="products-content" class="content-block">
                             <!-- Dynamic Content -->
                         </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Project Modal -->
+        <div id="about-modal" class="modal hidden">
+            <div class="modal-content glass-effect">
+                <button id="close-about" class="close-btn" aria-label="Kapat">&times;</button>
+
+                <div class="modal-header">
+                    <h2>Proje Hakkında</h2>
+                    <span class="decorative-line"></span>
+                </div>
+
+                <div class="modal-body">
+                    <section class="info-section">
+                        <h3><span class="icon">💻</span> Kullanılan Teknolojiler</h3>
+                        <div class="detail-list">
+                            <div class="detail-item">
+                                <div class="detail-text">
+                                    <h4 class="detail-name">HTML5 & CSS3</h4>
+                                    <p class="detail-info">Modern, semantik yapı ve esnek tasarım (Flexbox/Grid).
+                                        Özelleştirilmiş CSS değişkenleri ve animasyonlar.</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-text">
+                                    <h4 class="detail-name">JavaScript (ES6+)</h4>
+                                    <p class="detail-info">Dinamik içerik yönetimi ve interaktif kullanıcı deneyimi için
+                                        modern JavaScript.</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-text">
+                                    <h4 class="detail-name">Leaflet.js</h4>
+                                    <p class="detail-info">Mobil uyumlu, interaktif harita kütüphanesi. Özel katmanlar
+                                        ve işaretçiler için kullanıldı.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="info-section">
+                        <h3><span class="icon">🎯</span> Proje Amacı</h3>
+                        <p style="color: #444; line-height: 1.6;">
+                            Bu çalışma, Türk Dili ve Edebiyatı ile coğrafyamızın kültürel değerlerini dijital bir
+                            ortamda birleştirerek öğrencilerin ve meraklıların keşfine sunmak amacıyla hazırlanmıştır.
+                        </p>
                     </section>
                 </div>
             </div>
