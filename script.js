@@ -605,6 +605,22 @@ const provinceData = {
             {
                 name: "Zafer Gazozu",
                 info: "Ege bölgesiyle özdeşleşmiş, çocukluğun nostaljik tadı, Denizli'nin yerel efsane gazozu."
+            },
+            {
+                name: "Tavas Pidesi",
+                info: "Tavas ilçesine has, özel hamuru, kıymalı-kaşarlı harcı ve yanında servis edilen turşusuyla damaklarda iz bırakan tescilli lezzet."
+            },
+            {
+                name: "Çal Karası Üzümü",
+                info: "Çal ilçesinin bereketli bağlarında yetişen, hem sofralık hem de şaraplık/pekmezlik olarak kullanılan dünyaca ünlü siyah üzüm."
+            },
+            {
+                name: "Hanabat Kervansarayı",
+                info: "Çardak ilçesinde bulunan, Selçuklu döneminden (1230) günümüze ulaşan, İpek Yolu üzerindeki görkemli tarihi yapı."
+            },
+            {
+                name: "Bozkurt (Hambat) Kapaması",
+                info: "Bozkurt ilçesine özgü; kuzu eti, pirinç ve baharatların fırında ağır ağır pişmesiyle yapılan, düğünlerin vazgeçilmez yemeği."
             }
         ]
     },
