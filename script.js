@@ -253,6 +253,10 @@ const provinceData = {
             {
                 name: "Sunay Akın",
                 info: "Şair, yazar ve araştırmacı. Yakın tarihin bilinmeyen ayrıntılarını ve İstanbul-Trabzon bağlantılarını sıcak bir dille anlatır."
+            },
+            {
+                name: "Hasan İzzettin Dinamo",
+                info: "Trabzon doğumlu usta yazar. Kurtuluş Savaşı'nı destansı bir dille anlattığı 'Kutsal İsyan' ve 'Kutsal Barış' romanlarıyla tanınır."
             }
         ],
         products: [
@@ -267,6 +271,14 @@ const provinceData = {
             {
                 name: "Hamsi",
                 info: "Karadeniz mutfağının baş tacı. Tavasından pilavına, çorbasından tatlısına kadar onlarca çeşit yemeği yapılan efsanevi balık."
+            },
+            {
+                name: "Vakfıkebir Ekmeği",
+                info: "Taş fırınlarda pişirilen, devasa boyutlarıyla bilinen, kalın kabuklu ve içi yumuşacık, uzun süre bayatlamayan meşhur Trabzon ekmeği."
+            },
+            {
+                name: "Laz Böreği",
+                info: "İsmine aldanmayın; ince yufkaların arasına muhallebi konulup şerbetlenmesiyle yapılan, üzerine karabiber serpilebilen nefis bir tatlıdır."
             }
         ]
     },
