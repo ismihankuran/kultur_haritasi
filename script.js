@@ -648,6 +648,58 @@ const provinceData = {
             }
         ]
     },
+    "Honaz": {
+        writers: [],
+        products: [
+            {
+                name: "Honaz Kirazı",
+                info: "Özellikle 'Napolyon' cinsiyle bilinen, ihracat şampiyonu, iri taneli ve lezzetli kirazlarıyla meşhur ilçemiz."
+            },
+            {
+                name: "Kaklık Mağarası",
+                info: "Yerin altındaki Pamukkale olarak bilinen, kükürtlü termal suların oluşturduğu sarkıt ve dikitlerle bezeli doğa harikası."
+            }
+        ]
+    },
+    "Babadağ": {
+        writers: [],
+        products: [
+            {
+                name: "Babadağ Keşkeği",
+                info: "Özel günlerin baş tacı, buğday ve etin saatlerce dövülerek sakız gibi bir kıvam almasıyla yapılan geleneksel lezzet."
+            },
+            {
+                name: "Babadağ Dokuması",
+                info: "Tarihi çok eskilere dayanan, el tezgahlarında ve fabrikalarda üretilen, kalitesiyle ünlü tekstil ve dokuma ürünleri."
+            }
+        ]
+    },
+    "Sarayköy": {
+        writers: [],
+        products: [
+            {
+                name: "Sarayköy Pidesi",
+                info: "Tahinli veya kıymalı çeşitleriyle yapılan, yumuşak hamuru ve odun ateşinde pişmesiyle fark yaratan yöresel pide."
+            },
+            {
+                name: "Termal Kaplıcalar",
+                info: "Şifalı sıcak sularıyla sağlık turizminin merkezi, romatizmal hastalıklara iyi gelen zengin mineralli termal kaynaklar."
+            },
+            {
+                name: "Sarayköy Şeftalisi",
+                info: "Bölgenin mikroklima etkisiyle yetişen, sulu, tatlı ve kendine has aromasıyla bilinen meşhur meyve."
+            }
+        ]
+    },
+    "Buharkent": {
+        writers: [],
+        products: [
+            {
+                name: "Taze İncir",
+                info: "Türkiye'nin en erkenci taze incirinin (Sarı Lop) yetiştiği, sezonun ilk bereketinin yaşandığı ilçe."
+            }
+        ]
+    },
     "Aydın": {
         writers: [
             {
@@ -717,7 +769,11 @@ const denizliDistricts = [
     { name: "Tavas", lat: 37.5739, lng: 29.0706 },
     { name: "Çal", lat: 37.9312, lng: 29.4042 },
     { name: "Çardak", lat: 37.8286, lng: 29.6631 },
-    { name: "Bozkurt", lat: 37.8242, lng: 29.6083 } // Bozkurt is very close to Çardak
+    { name: "Bozkurt", lat: 37.8242, lng: 29.6083 },
+    { name: "Honaz", lat: 37.7610, lng: 29.2559 },
+    { name: "Babadağ", lat: 37.8048, lng: 28.8553 },
+    { name: "Sarayköy", lat: 37.9220, lng: 28.9248 },
+    { name: "Buharkent", lat: 37.9610, lng: 28.7423 } // Buharkent is officially in Aydın but requested here
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
