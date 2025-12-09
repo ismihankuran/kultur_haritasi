@@ -733,16 +733,24 @@ const provinceData = {
     "Aydın": {
         writers: [
             {
+                name: "Sabahattin Ali - Kuyucaklı Yusuf",
+                info: "Türk edebiyatının en önemli toplumcu gerçekçi romanlarından 'Kuyucaklı Yusuf'un ana karakterinin doğduğu topraklar (Kuyucak). Yazarın bu eseri, kasaba hayatını ve toplumsal yapıyı çarpıcı bir dille anlatır."
+            },
+            {
+                name: "Evliya Çelebi",
+                info: "Ünlü seyyah, Seyahatname'sinde bu bölge için o meşhur sözü söylemiştir: 'Dağlarından yağ, ovalarından bal akar.' (Yağ: Zeytin, Bal: İncir/Üzüm)."
+            },
+            {
+                name: "Ara Güler - Afrodisias",
+                info: "Karacasu/Geyre. Ünlü foto muhabirinin keşfiyle dünya mirasına kazandırılan Afrodisias Antik Kenti. Ara Güler'in bu tesadüfi keşfi ve fotoğrafları, edebi ve tarihi birer belgedir."
+            },
+            {
                 name: "Tuncel Kurtiz",
                 info: "Ünlü sinema ve tiyatro oyuncusu, yönetmen, yapımcı ve senarist. Çocukluğunun bir kısmı Aydın'da geçmiş, son yıllarını Kaz Dağları eteklerinde geçirmiş ve hayatı doğayla iç içe yaşamıştır."
             },
             {
                 name: "Adnan Menderes",
                 info: "Siyasetçi ve devlet adamı. Aydınlı bir ailenin çocuğu olarak demokrasi tarihimizde önemli bir yer edinmiş, adına üniversite kurulmuş bir liderdir."
-            },
-            {
-                name: "Ahmet Hamdi",
-                info: "'Aydınlı Ahmet' olarak da bilinir. 14. yüzyılda yaşamış, tıp alanında eserler vermiş önemli bir hekimdir."
             }
         ],
         products: [
@@ -752,7 +760,15 @@ const provinceData = {
             },
             {
                 name: "Zeytinyağı",
-                info: "Ege'nin bereketli topraklarından elde edilen, asit oranı düşük, nefis aromalı ve yüksek kaliteli zeytinyağları."
+                info: "Evliya Çelebi'nin 'Yağ akar' dediği, Ege'nin bereketli topraklarından elde edilen, asit oranı düşük, nefis aromalı ve yüksek kaliteli zeytinyağları."
+            },
+            {
+                name: "Karacasu Çömleği",
+                info: "Kırmızı toprağın ustaların elinde sanata dönüştüğü, Karacasu ilçesine özgü, coğrafi işaretli geleneksel seramik ve çömlek ürünleri."
+            },
+            {
+                name: "Sümerbank Basma Fabrikası (Nazilli)",
+                info: "Genç Cumhuriyet'in yerli üretim simgesi. Sadece bir fabrika değil, baloları ve kütüphanesiyle bir kültür devrimi. Ayrıca işçileri taşıyan 'Gıdı Gıdı Treni' de kültürel belleğin bir parçasıdır."
             },
             {
                 name: "Çine Köftesi",
