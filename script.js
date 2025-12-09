@@ -570,7 +570,19 @@ const provinceData = {
         writers: [
             {
                 name: "Özay Gönlüm",
-                info: "Denizli şivesini, fıkralarını ve türkülerini 'Yaren' adını verdiği üçlü sazıyla tüm Türkiye'ye sevdiren efsanevi halk ozanı ve kültür elçisi."
+                info: "Denizli şivesini, fıkralarını ve türkülerini 'Yaren' adını verdiği üçlü sazıyla tüm Türkiye'ye sevdiren efsanevi halk ozanı. 'Ninenin Mektupları' ile yerel ağzı sanata dönüştürmüştür."
+            },
+            {
+                name: "Aysel Gürel",
+                info: "'Çılgın ve Dahi' söz yazarı, şair. Türk Pop Müziği'ne 'Firuze', 'Ünzile' gibi derin ve şiirsel şarkı sözleri kazandırmış, Denizli doğumlu efsanevi sanatçıdır."
+            },
+            {
+                name: "Kerim Çaplı",
+                info: "Türk rock müziğinin kayıp dehası, Blue Blues Band'in efsanevi davulcusu. Müzikal yeteneğiyle 'Türkiye'nin Jimi Hendrix'i' olarak anılır."
+            },
+            {
+                name: "Mehmet Çınarlı",
+                info: "'Güneş Rengi Kadehlerle' şiirinin şairi. Hisar dergisinin kurucularından olup geleneksel şiir anlayışını modern çağda sürdürmüştür."
             },
             {
                 name: "Merkezefendi",
@@ -587,20 +599,20 @@ const provinceData = {
                 info: "Uzun ötüşü, renkli tüyleri ve heybetli duruşuyla şehrin canlı sembolü. 'Her horoz kendi çöplüğünde öter' sözünün hakkını veren asil bir ırk."
             },
             {
+                name: "Pamukkale & Hierapolis",
+                info: "UNESCO Dünya Mirası. Beyaz cennet travertenler ve hemen yanındaki 'Kutsal Şehir' Hierapolis Antik Kenti."
+            },
+            {
+                name: "Laodikeia Antik Kenti",
+                info: "İncil'de geçen 7 kiliseden birine ev sahipliği yapan, horoz heykelinin bulunduğu ve tekstilin binlerce yıllık merkezi olan antik kent."
+            },
+            {
+                name: "Tarihi Kaleiçi Çarşısı",
+                info: "800 yıllık geçmişiyle Ahilik geleneğinin ve ticaretin kalbinin attığı, bakırcıların ve el sanatlarının merkezi."
+            },
+            {
                 name: "Denizli Kebabı",
                 info: "Sakız ağacı odununda, özel fırınlarda saatlerce pişen, çatal bıçak kullanılmadan elle yenen, lokum gibi kuzu eti."
-            },
-            {
-                name: "Pamukkale (Travertenler)",
-                info: "Dünyada eşi benzeri olmayan, kireçli sıcak suların oluşturduğu beyaz cennet. UNESCO Dünya Mirası listesindedir."
-            },
-            {
-                name: "Buldan Bezi",
-                info: "Yüzyıllardır el tezgahlarında dokunan, teri emen doğal yapısıyla ünlü, antik çağlardan beri kralların giydiği özel dokuma kumaş."
-            },
-            {
-                name: "Serinhisar Leblebisi",
-                info: "Nohudun haftalar süren emekle kavrulmasıyla elde edilen, çifte kavrulmuşundan acılısına kadar onlarca çeşidi olan tescilli çerez."
             },
             {
                 name: "Zafer Gazozu",
@@ -612,13 +624,22 @@ const provinceData = {
         writers: [],
         products: [
             {
+                name: "Kızılcabölük Dokumaları",
+                info: "Geleneksel el tezgahlarında üretilen, renkli ve desenli peştemalleri ile meşhur, geçmişi yüzyıllara dayanan el sanatı."
+            },
+            {
                 name: "Tavas Pidesi",
                 info: "Tavas ilçesine has, özel hamuru, kıymalı-kaşarlı harcı ve yanında servis edilen turşusuyla damaklarda iz bırakan tescilli lezzet."
             }
         ]
     },
     "Çal": {
-        writers: [],
+        writers: [
+            {
+                name: "İbrahim Çallı",
+                info: "Ünlü Türk ressamı. 'Çallı Kuşağı'na adını veren, Türk resim sanatının Cumhuriyet dönemindeki en önemli izlenimci ustalarındandır."
+            }
+        ],
         products: [
             {
                 name: "Çal Karası Üzümü",
@@ -652,12 +673,16 @@ const provinceData = {
         writers: [],
         products: [
             {
-                name: "Honaz Kirazı",
-                info: "Özellikle 'Napolyon' cinsiyle bilinen, ihracat şampiyonu, iri taneli ve lezzetli kirazlarıyla meşhur ilçemiz."
+                name: "Honaz Dağı Milli Parkı",
+                info: "Ege Bölgesi'nin en yüksek noktası (2571m). Zengin bitki örtüsü ve endemik türleriyle doğa tutkunlarının adresidir."
             },
             {
                 name: "Kaklık Mağarası",
-                info: "Yerin altındaki Pamukkale olarak bilinen, kükürtlü termal suların oluşturduğu sarkıt ve dikitlerle bezeli doğa harikası."
+                info: "'Yeraltındaki Pamukkale'. İçinde kükürtlü termal su ve büyüleyici traverten oluşumları barındıran doğa harikası."
+            },
+            {
+                name: "Honaz Kirazı",
+                info: "Özellikle 'Napolyon' cinsiyle bilinen, ihracat şampiyonu, iri taneli ve lezzetli kirazlarıyla meşhur."
             }
         ]
     },
@@ -665,25 +690,30 @@ const provinceData = {
         writers: [],
         products: [
             {
-                name: "Babadağ Keşkeği",
-                info: "Özel günlerin baş tacı, buğday ve etin saatlerce dövülerek sakız gibi bir kıvam almasıyla yapılan geleneksel lezzet."
+                name: "Babadağ Tekstili",
+                info: "Rengarenk evleri ve dokuma tezgahları ile tekstilin doğduğu yerlerden biri. Geleneksel yöntemlerle üretilen kumaşlar dünyaca ünlüdür."
             },
             {
-                name: "Babadağ Dokuması",
-                info: "Tarihi çok eskilere dayanan, el tezgahlarında ve fabrikalarda üretilen, kalitesiyle ünlü tekstil ve dokuma ürünleri."
+                name: "Babadağ Keşkeği",
+                info: "Özel günlerin baş tacı, buğday ve etin saatlerce dövülerek sakız gibi bir kıvam almasıyla yapılan geleneksel lezzet."
             }
         ]
     },
     "Sarayköy": {
-        writers: [],
-        products: [
+        writers: [
             {
-                name: "Sarayköy Pidesi",
-                info: "Tahinli veya kıymalı çeşitleriyle yapılan, yumuşak hamuru ve odun ateşinde pişmesiyle fark yaratan yöresel pide."
-            },
+                name: "Sezen Aksu",
+                info: "'Minik Serçe'. 1954 Sarayköy doğumlu, şarkıcı, besteci ve şair. Modern Türk müziğinin en üretken ve etkili kalemlerinden biridir."
+            }
+        ],
+        products: [
             {
                 name: "Termal Kaplıcalar",
                 info: "Şifalı sıcak sularıyla sağlık turizminin merkezi, romatizmal hastalıklara iyi gelen zengin mineralli termal kaynaklar."
+            },
+            {
+                name: "Sarayköy Pidesi",
+                info: "Tahinli veya kıymalı çeşitleriyle yapılan, yumuşak hamuru ve odun ateşinde pişmesiyle fark yaratan yöresel pide."
             },
             {
                 name: "Sarayköy Şeftalisi",
@@ -733,6 +763,117 @@ const provinceData = {
                 info: "El açması yufkaların et suyuyla ıslatılıp arasına kıymalı harç konularak kat kat döşenmesiyle yapılan, üzerine yoğurt dökülen yöresel lezzet."
             }
         ]
+    },
+    "Acıpayam": {
+        writers: [],
+        products: [
+            {
+                name: "Keloğlan Mağarası",
+                info: "Dodurgalar mahallesinde bulunan, Türkiye'nin turizme açık en güzel mağaralarından biri. Binlerce yıllık sarkıt ve dikitleriyle ünlüdür."
+            }
+        ]
+    },
+    "Buldan": {
+        writers: [],
+        products: [
+            {
+                name: "Buldan Bezi",
+                info: "Antik çağlardan beri kralların giydiği, Osmanlı saraylarına kumaş gönderen, teri emen doğal yapısıyla ünlü tarihi dokuma."
+            },
+            {
+                name: "Tripolis Antik Kenti",
+                info: "Lidya bölgesinin önemli ticaret merkezlerinden, Menderes nehri kenarında kurulu, tiyatrosu ve mozaikleriyle ünlü antik kent."
+            }
+        ]
+    },
+    "Çameli": {
+        writers: [
+            {
+                name: "Hayri Dev",
+                info: "UNESCO tarafından 'Yaşayan İnsan Hazinesi' ilan edilen, üç telli curasıyla Yörük/Türkmen kültürünü dünyaya tanıtan büyük usta."
+            }
+        ],
+        products: [
+            {
+                name: "Çameli Fasulyesi",
+                info: "Coğrafi işaretli, lezzeti ve çabuk pişmesiyle ünlü, bölgenin yüksek rakımlı yaylalarında yetişen özel bir fasulye türü."
+            }
+        ]
+    },
+    "Serinhisar": {
+        writers: [],
+        products: [
+            {
+                name: "Serinhisar Leblebisi",
+                info: "'Çorum değil Serinhisar!' Türkiye'deki leblebi üretiminin merkezi. Çifte kavrulmuşundan acılısına onlarca çeşidiyle tescilli lezzet."
+            },
+            {
+                name: "Yatağan Bıçakları",
+                info: "Osmanlı ordusuna kılıç üreten Yatağan mahallesinde, dededen toruna geçen ustalıkla yapılan el yapımı meşhur bıçaklar."
+            }
+        ]
+    },
+    "Kale": {
+        writers: [],
+        products: [
+            {
+                name: "Kale Biberi",
+                info: "Tescilli, yuvarlak, etli ve kendine has aromasıyla bilinen; kurutmalığı, kızartması ve turşusu yapılan meşhur biber."
+            }
+        ]
+    },
+    "Güney": {
+        writers: [],
+        products: [
+            {
+                name: "Güney Şelalesi",
+                info: "Cindere Dağı yamaçlarından dökülen, Menderes nehrine karışan, doğa harikası bir şelale ve mesire alanı."
+            },
+            {
+                name: "Güney Şarabı",
+                info: "Pamukkale Şarapçılık başta olmak üzere, bölgenin kaliteli üzümlerinden üretilen ödüllü şaraplar."
+            }
+        ]
+    },
+    "Çivril": {
+        writers: [],
+        products: [
+            {
+                name: "Çivril Elması",
+                info: "Menderes ovasının bereketiyle yetişen, sulu, kütür kütür ve kendine has aromasıyla bilinen meşhur elma."
+            },
+            {
+                name: "Işıklı Gölü & Nilüferler",
+                info: "Bahar aylarında yüzeyini kaplayan beyaz nilüfer çiçekleriyle görsel bir şölen sunan, kuş cenneti."
+            }
+        ]
+    },
+    "Bekilli": {
+        writers: [],
+        products: [
+            {
+                name: "Bekilli Şarabı",
+                info: "Bölgenin üzüm bağlarından elde edilen, ev yapımı geleneğiyle de bilinen, kendine has aromalı şaraplar."
+            }
+        ]
+    },
+    "Beyağaç": {
+        writers: [],
+        products: [
+            {
+                name: "Kartal Gölü",
+                info: "Sandıras Dağı'nın zirvesinde, etrafı asırlık karaçam ağaçlarıyla çevrili, doğa harikası buzul gölü."
+            }
+        ]
+    },
+    "Baklan": {
+        writers: [],
+        products: [
+            {
+                name: "Baklan Ovası",
+                info: "Denizli'nin en önemli tahıl ambarlarından biri. Buğday ve ayçiçeği üretiminin merkezi."
+            }
+        ]
     }
 };
 
@@ -759,7 +900,6 @@ const cityCoordinates = [
     { name: "Kütahya", lat: 39.4167, lng: 29.9833 },
     { name: "Afyonkarahisar", lat: 38.7507, lng: 30.5567 },
     { name: "Uşak", lat: 38.6823, lng: 29.4082 },
-    { name: "Uşak", lat: 38.6823, lng: 29.4082 },
     { name: "Denizli", lat: 37.7765, lng: 29.0864 },
     { name: "Aydın", lat: 37.8444, lng: 27.8458 }
 ];
@@ -773,7 +913,17 @@ const denizliDistricts = [
     { name: "Honaz", lat: 37.7610, lng: 29.2559 },
     { name: "Babadağ", lat: 37.8048, lng: 28.8553 },
     { name: "Sarayköy", lat: 37.9220, lng: 28.9248 },
-    { name: "Buharkent", lat: 37.9610, lng: 28.7423 } // Buharkent is officially in Aydın but requested here
+    { name: "Buharkent", lat: 37.9610, lng: 28.7423 }, // Buharkent
+    { name: "Acıpayam", lat: 37.4228, lng: 29.3514 },
+    { name: "Buldan", lat: 38.0465, lng: 28.8354 },
+    { name: "Çameli", lat: 37.0734, lng: 29.3432 },
+    { name: "Serinhisar", lat: 37.5458, lng: 29.2392 },
+    { name: "Kale", lat: 37.4475, lng: 28.8471 },
+    { name: "Güney", lat: 38.1567, lng: 29.0531 },
+    { name: "Çivril", lat: 38.2934, lng: 29.7369 },
+    { name: "Beyağaç", lat: 37.1994, lng: 28.8492 },
+    { name: "Bekilli", lat: 38.2255, lng: 29.4142 },
+    { name: "Baklan", lat: 38.0050, lng: 29.6105 }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
