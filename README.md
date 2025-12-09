@@ -1,21 +1,22 @@
 # 🌍 Türkçemizin Coğrafyası: Edebi Kişiler ve Yöresel Ürünler Haritası
 
-Bu proje, Denizli Adalet Ortaokulu bünyesinde, Türk Dili ve Edebiyatı ile coğrafi kültürümüzü dijital ortamda birleştirmek amacıyla geliştirilmiş interaktif bir web uygulamasıdır. Öğrencilerin ve meraklıların şehirlerimizi, şairlerimizi, yazarlarımızı ve yöresel lezzetlerimizi keşfetmelerini sağlar.
+Bu proje, Denizli Adalet Ortaokulu öğrencileri ve tüm kültür meraklısı öğrenciler için, Türk Dili ve Edebiyatı ile coğrafi kültürümüzü dijital ortamda keşfetmeleri amacıyla gönüllü olarak hazırlanmış interaktif bir web uygulamasıdır.
 
 ![Proje Görünümü](https://img.shields.io/badge/Durum-Canlı-success) ![Lisans](https://img.shields.io/badge/Lisans-MIT-blue)
 
 ## 🎯 Projenin Amacı
 
 Öğrencilerimize ve kültür meraklılarına:
-*   Şehirlerimizin yetiştirdiği önemli **edebi şahsiyetleri** tanıtmak,
-*   Yöresel **coğrafi işaretli ürünleri** ve lezzetleri öğretmek,
+*   Şehirlerin yetiştirdiği önemli **edebi şahsiyetleri**, şairleri ve **sanatçıları** tanıtmak,
+*   Yöresel **coğrafi işaretli ürünleri**, el sanatlarını ve lezzetleri öğretmek,
 *   Teknoloji ile kültürü harmanlayarak eğlenceli bir **öğrenme deneyimi** sunmak.
 
 ## ✨ Özellikler
 
 *   **İnteraktif Türkiye Haritası:** Leaflet.js kütüphanesi kullanılarak hazırlanan, yakınlaştırılabilir (zoom) ve sürüklenebilir harita.
 *   **Şehir Detayları:** Şehirlere tıklandığında açılan modern ve şık pencerede (modal) o şehre ait bilgiler.
-*   **Dinamik İlçe Gösterimi (Özel):** Denizli iline yaklaşıldığında (zoom yapıldığında) **Tavas, Çal, Bozkurt, Çardak, Honaz, Babadağ, Sarayköy** gibi ilçelerin otomatik olarak belirmesi.
+*   **Dinamik İlçe Gösterimi (Özel):** Denizli iline yaklaşıldığında (zoom yapıldığında) **tüm ilçelerin** (Acıpayam, Buldan, Çameli, Serinhisar vb.) ve yerel değerlerinin otomatik olarak belirmesi.
+*   **Zenginleştirilmiş Kültürel İçerik:** Sadece yazarlar değil; halk ozanları (Özay Gönlüm), müzisyenler (Sezen Aksu, Hayri Dev), ressamlar (İbrahim Çallı) ve tarihi mirasımız (Pamukkale, Laodikeia) da haritaya işlenmiştir.
 *   **Responsive Tasarım:** Hem masaüstü hem de mobil cihazlarda (telefon/tablet) sorunsuz çalışan duyarlı arayüz.
 *   **Estetik Arayüz:** "Glassmorphism" (buzlu cam) efekti, özel yazı tipleri ve animasyonlarla zenginleştirilmiş modern tasarım.
 
