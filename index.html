@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Türkiye Edebiyat & Kültür Haritası</title>
-    
+
     <!-- Meta for SEO and Social Sharing -->
-    <meta name="description" content="Türkiye'nin edebi ve kültürel zenginliklerini keşfedin. İnteraktif harita ile şehirlerin şairlerini, yazarlarını ve yerel ürünlerini öğrenin.">
-    
+    <meta name="description"
+        content="Türkiye'nin edebi ve kültürel zenginliklerini keşfedin. İnteraktif harita ile şehirlerin şairlerini, yazarlarını ve yerel ürünlerini öğrenin.">
+
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-     crossorigin=""/>
-     
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
     <!-- Google Fonts: Playfair Display (Serif for Literature feel) and Inter (Sans for readability) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="app-container">
         <header class="main-header">
-            <h1>Türkiye Edebiyat Haritası</h1>
+            <h1>Türkçemizin Coğrafyası: Edebiyat ve Yöresel Ürünler Haritası</h1>
             <p>Şehirlerin edebi mirasını ve kültürel zenginliklerini keşfedin.</p>
         </header>
 
@@ -33,11 +37,15 @@
             <div id="map"></div>
         </main>
 
+        <footer class="main-footer">
+            <p>İsmihan KURAN | Türkçe Öğretmeni Adalet Ortaokulu • Merkezefendi / DENİZLİ</p>
+        </footer>
+
         <!-- Glassmorphism Modal Overlay -->
         <div id="info-modal" class="modal hidden">
             <div class="modal-content glass-effect">
                 <button id="close-modal" class="close-btn" aria-label="Kapat">&times;</button>
-                
+
                 <div class="modal-header">
                     <h2 id="city-name">Şehir İsmi</h2>
                     <span class="decorative-line"></span>
@@ -64,10 +72,10 @@
 
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-     crossorigin=""></script>
-     
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
     <!-- Custom Script -->
     <script src="script.js"></script>
 </body>
+
 </html>
