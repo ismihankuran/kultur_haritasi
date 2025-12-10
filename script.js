@@ -627,6 +627,55 @@ const provinceData = {
             }
         ]
     },
+    "Kuyucak": {
+        writers: [
+            {
+                name: "Sabahattin Ali - Kuyucaklı Yusuf",
+                info: "Türk edebiyatının en önemli toplumcu gerçekçi romanlarından 'Kuyucaklı Yusuf'un ana karakterinin doğduğu topraklar."
+            }
+        ],
+        products: [
+            {
+                name: "Portakal Çiçeği Kokusu",
+                info: "Bahar aylarında tüm ilçeyi saran, narenciye bahçelerinin büyüleyici kokusu."
+            }
+        ]
+    },
+    "Karacasu": {
+        writers: [
+            {
+                name: "Ara Güler - Afrodisias",
+                info: "Ara Güler'in keşfiyle dünya mirasına kazandırılan Afrodisias ve ustaların elinde sanata dönüşen Karacasu çömlekleri."
+            }
+        ],
+        products: [
+            {
+                name: "Karacasu Çömleği",
+                info: "Kırmızı toprağın ustaların elinde sanata dönüştüğü, Afrodisias'ın sanat mirasını yaşatan geleneksel çömlekçilik."
+            },
+            {
+                name: "Afrodisias Antik Kenti",
+                info: "Aşk ve güzellik tanrıçası Afrodit'e adanmış, dünyanın en iyi korunmuş stadyumuna sahip antik kent."
+            }
+        ]
+    },
+    "Nazilli": {
+        writers: [],
+        products: [
+            {
+                name: "Sümerbank Basma Fabrikası",
+                info: "Genç Cumhuriyet'in yerli üretim simgesi Sümerbank Basma Fabrikası ve edebiyata/anılara konu olan sosyal yaşamı."
+            },
+            {
+                name: "Gıdı Gıdı Treni",
+                info: "Fabrika işçilerini taşıyan, halk arasında 'Gıdı Gıdı' olarak bilinen, Nazilli'nin simgesi nostaljik tren."
+            },
+            {
+                name: "Nazilli Pidesi",
+                info: "Gevrek hamuru ve bol malzemesiyle Ege'nin en sevilen lezzetlerinden biri."
+            }
+        ]
+    },
     "Honaz": {
         writers: [],
         products: [
@@ -680,7 +729,12 @@ const provinceData = {
         ]
     },
     "Buharkent": {
-        writers: [],
+        writers: [
+            {
+                name: "Evliya Çelebi",
+                info: "Evliya Çelebi'nin 'Dağlarından yağ, ovalarından bal akar' diyerek betimlediği bereketli Menderes ovaları."
+            }
+        ],
         products: [
             {
                 name: "Taze İncir",
@@ -871,7 +925,6 @@ const denizliDistricts = [
     { name: "Honaz", lat: 37.7610, lng: 29.2559 },
     { name: "Babadağ", lat: 37.8048, lng: 28.8553 },
     { name: "Sarayköy", lat: 37.9220, lng: 28.9248 },
-    { name: "Buharkent", lat: 37.9610, lng: 28.7423 }, // Buharkent
     { name: "Acıpayam", lat: 37.4228, lng: 29.3514 },
     { name: "Buldan", lat: 38.0465, lng: 28.8354 },
     { name: "Çameli", lat: 37.0734, lng: 29.3432 },
@@ -882,6 +935,13 @@ const denizliDistricts = [
     { name: "Beyağaç", lat: 37.1994, lng: 28.8492 },
     { name: "Bekilli", lat: 38.2255, lng: 29.4142 },
     { name: "Baklan", lat: 38.0050, lng: 29.6105 }
+];
+
+const aydinDistricts = [
+    { name: "Buharkent", lat: 37.9610, lng: 28.7423 },
+    { name: "Kuyucak", lat: 37.9133, lng: 28.4592 },
+    { name: "Nazilli", lat: 37.9133, lng: 28.3200 },
+    { name: "Karacasu", lat: 37.7308, lng: 28.6061 }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -1062,7 +1122,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Function to create district markers
     function createDistrictMarkers() {
-        denizliDistricts.forEach(district => {
+        const allDistricts = [...denizliDistricts, ...aydinDistricts];
+
+        allDistricts.forEach(district => {
             const marker = L.circleMarker([district.lat, district.lng], {
                 radius: 8,
                 fillColor: "#e67e22", // Different color for districts (Orange)
