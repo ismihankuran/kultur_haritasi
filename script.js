@@ -3,72 +3,48 @@ const provinceData = {
     "İstanbul": {
         writers: [
             {
-                name: "Orhan Pamuk",
-                info: "2006 Nobel Edebiyat Ödülü sahibi. 'Benim Adım Kırmızı', 'Kar' ve 'Masumiyet Müzesi' gibi eserlerinde İstanbul'un hüznünü ve tarihini postmodern bir anlatımla işler."
+                name: "Yahya Kemal Beyatlı",
+                info: "İstanbul aşığı şair. 'Sana dün bir tepeden baktım aziz İstanbul' diyerek şehrin ruhunu, tarihini ve güzelliğini şiirleştirmiştir."
             },
             {
-                name: "Yahya Kemal Beyatlı",
-                info: "Cumhuriyet dönemi Türk şiirinin en büyük temsilcilerinden. İstanbul aşığı şair, aruz ölçüsünü modern Türkçeye başarıyla uygulamıştır."
+                name: "Orhan Pamuk",
+                info: "2006 Nobel Edebiyat Ödülü sahibi. 'Benim Adım Kırmızı' ve 'Masumiyet Müzesi' gibi eserlerinde İstanbul'un hüznünü ve tarihini postmodern bir anlatımla işler."
             },
             {
                 name: "Ahmet Hamdi Tanpınar",
                 info: "'Huzur' ve 'Saatleri Ayarlama Enstitüsü' romanlarıyla tanınır. Doğu-Batı çatışmasını ve zaman kavramını derinlemesine irdeleyen usta bir yazardır."
-            },
-            {
-                name: "Halide Edip Adıvar",
-                info: "Kurtuluş Savaşı'nın simge isimlerinden. 'Sinekli Bakkal' ve 'Ateşten Gömlek' romanlarında toplumsal değişimleri ve kadın karakterleri güçlü bir şekilde anlatır."
-            },
-            {
-                name: "Sait Faik Abasıyanık",
-                info: "Modern Türk hikayeciliğinin öncüsü. Burgazada ve İstanbul'un sıradan insanlarını, denizi ve doğayı benzersiz bir dille öyküleştirmiştir."
             }
         ],
         products: [
             {
-                name: "Türk Lokumu",
-                info: "Dünya genelinde 'Turkish Delight' olarak bilinen, Osmanlı saray mutfağından günümüze gelen geleneksel bir tatlıdır."
+                name: "Lale",
+                info: "Orta Asya'dan Anadolu'ya, buradan da İstanbul üzerinden Avrupa'ya (Hollanda'ya) giden, şehrin simgesi haline gelmiş zarif çiçek."
+            },
+            {
+                name: "Tarihi Yarımada",
+                info: "Ayasofya, Topkapı Sarayı ve Sultanahmet gibi şaheserleri barındıran, turizmin ve tarihin kalbinin attığı bölge."
             },
             {
                 name: "Türk Kahvesi",
-                info: "Kendine has pişirme tekniği ve tortusuyla servis edilen, UNESCO somut olmayan kültürel miras listesindeki önemli bir içecektir."
-            },
-            {
-                name: "Boza",
-                info: "Darı irmiği, su ve şekerden yapılan, özellikle kış aylarında tüketilen fermanetasyonlu, hafif ekşimsi tarihi bir içecektir."
-            },
-            {
-                name: "Balık Ekmek",
-                info: "Eminönü ve Karaköy sahiliyle özdeşleşmiş, taze ızgara balığın soğan ve yeşillikle ekmek arasında sunulduğu klasik bir sokak lezzetidir."
+                info: "Kendine has pişirme tekniği ve sunumuyla UNESCO somut olmayan kültürel miras listesindeki önemli bir içecek."
             }
         ]
     },
     "Ankara": {
         writers: [
             {
+                name: "Orhan Veli Kanık",
+                info: "Garip akımının öncüsü. 'Ankara'da Melih Bey diye birini tanırdım' dizeleriyle ve sokaktaki sıradan insanı anlatmasıyla bilinir."
+            },
+            {
                 name: "Mehmet Akif Ersoy",
                 info: "İstiklal Marşı'mızın şairi. Milli Mücadele yıllarında Ankara'da Tacettin Dergahı'nda ikamet etmiş ve milli duyguları ateşleyen şiirler yazmıştır."
-            },
-            {
-                name: "Orhan Veli Kanık",
-                info: "Garip akımının kurucusu. Şiiri sokağa taşıyan, günlük dili ve sıradan insanı şiirin merkezine koyan yenilikçi şairdir."
-            },
-            {
-                name: "Melih Cevdet Anday",
-                info: "Garip akımının temsilcilerinden olmakla birlikte, felsefi ve mitolojik derinliği olan 'Kolları Bağlı Odysseus' gibi eserler de vermiştir."
-            },
-            {
-                name: "Turgut Uyar",
-                info: "İkinci Yeni şiirinin en önemli isimlerinden. 'Göğe Bakma Durağı' gibi şiirlerinde kentli insanın yalnızlığını ve sıkıntılarını metaforik bir dille anlatır."
             }
         ],
         products: [
             {
                 name: "Ankara Simidi",
-                info: "Koyu rengini dut pekmezinden alan, bol susamlı ve çıtır çıtır yapısıyla diğer simitlerden ayrılan coğrafi işaretli bir lezzettir."
-            },
-            {
-                name: "Beypazarı Kurusu",
-                info: "Beypazarı ilçesine özgü, tereyağı ve tarçın içeren, çay yanında tüketilen sert ve dayanıklı bir galeta türüdür."
+                info: "Diğer simitlerden farkı, pişirilmeden önce sıcak pekmezli suya batırılmasıdır. Bu işlem ona koyu rengini ve çıtırlığını verir."
             },
             {
                 name: "Tiftik Keçisi Yünü",
@@ -80,33 +56,25 @@ const provinceData = {
         writers: [
             {
                 name: "Attilâ İlhan",
-                info: "Mavi akımının öncüsü. 'Ben Sana Mecburum' gibi şiirleri ve romanlarıyla toplumcu gerçekçi ama aynı zamanda romantik bir üslup geliştirmiştir."
+                info: "Kaptan lakaplı usta kalem. 'Ben sana mecburum' şiirinin şairi. İzmir'in özgür ve romantik ruhunu en iyi temsil eden isimlerdendir."
             },
             {
                 name: "Halid Ziya Uşaklıgil",
-                info: "Batılı anlamda modern Türk romanının kurucusu sayılır. 'Aşk-ı Memnu' ve 'Mai ve Siyah' eserleriyle tanınır."
-            },
-            {
-                name: "Samim Kocagöz",
-                info: "Toplumcu gerçekçi yazar. Ege bölgesindeki tarım işçilerinin ve halkın yaşam mücadelesini 'Kalpaklılar' gibi eserlerinde anlatmıştır."
-            },
-            {
-                name: "Necati Cumalı",
-                info: "Ege insanının yaşamını, tütün tarlalarını ve kırsal ilişkileri şiir, hikaye ve tiyatro eserlerinde (örn. 'Susuz Yaz') işlemiştir."
+                info: "Modern Türk romanının kurucusu. İzmir'de geçen çocukluk ve gençlik yılları eserlerine yansımıştır."
             }
         ],
         products: [
             {
                 name: "Boyoz",
-                info: "İzmir mutfağıyla özdeşleşmiş, mayasız hamurun kat kat açılmasıyla yapılan ve genellikle haşlanmış yumurta ile yenen bir hamur işidir."
+                info: "500 yıl önce İspanya'dan İzmir'e göç edenlerin mutfağımıza kattığı, sabah kahvaltılarının vazgeçilmezi yağlı hamur işi."
+            },
+            {
+                name: "Çekirdeksiz Sultaniye Üzüm",
+                info: "Güneşin bereketiyle yetişen, dünyanın en önemli ihracat ürünlerinden biri olan tatlı ve çekirdeksiz üzüm."
             },
             {
                 name: "İzmir Kumrusu",
                 info: "Özel bir ekmek içine İzmir tulum peyniri, domates ve biber (veya sucuk/salam) konularak yapılan meşhur bir sandviçtir."
-            },
-            {
-                name: "Kuru İncir",
-                info: "Ege bölgesinin dünyaca ünlü, yüksek besin değerine sahip, coğrafi işaretli meyvesidir."
             }
         ]
     },
@@ -114,7 +82,7 @@ const provinceData = {
         writers: [
             {
                 name: "Mevlânâ Celâleddîn-i Rûmî",
-                info: "13. yüzyılın büyük mutasavvıfı ve şairi. 'Mesnevi' eseriyle tüm dünyada hoşgörü ve sevgi felsefesinin sembolü olmuştur."
+                info: "Düşünce dünyamızın güneşi. 'Ne olursan ol yine gel' diyerek hoşgörü felsefesini Konya'dan tüm dünyaya yaymıştır. 'Mesnevi' eseri evrenseldir."
             },
             {
                 name: "Şems-i Tebrizi",
@@ -124,15 +92,15 @@ const provinceData = {
         products: [
             {
                 name: "Etli Ekmek",
-                info: "İncecik açılmış hamur üzerine kıyma, sebze ve baharat karışımının yayılmasıyla taş fırında pişirilen Konya'nın en meşhur yemeğidir."
+                info: "Konya'nın en sevilen, uzunlamasına açılan incecik pidesi. Şehrin misafirperverliğinin simgesidir."
+            },
+            {
+                name: "Buğday",
+                info: "Konya Ovası Türkiye'nin tahıl ambarıdır. Bereketli topraklarında yetişen buğday, ülkenin ekmek ihtiyacının büyük kısmını karşılar."
             },
             {
                 name: "Mevlana Şekeri",
                 info: "Konya'ya özgü, genellikle beyaz renkli, ağızda dağılan, bergamot aromalı sert bir akide şekeridir."
-            },
-            {
-                name: "Bamya Çorbası",
-                info: "Kurutulmuş çiçek bamyalarla ve kuşbaşı etle yapılan, düğün ve davet sofralarının vazgeçilmez, ekşili geleneksel çorbasıdır."
             }
         ]
     },
@@ -140,7 +108,7 @@ const provinceData = {
         writers: [
             {
                 name: "Ülkü Tamer",
-                info: "İkinci Yeni şiirinin çocuksu duyarlılığa sahip şairi. Gaziantep ve güney coğrafyasının sıcaklığını şiirlerine ve öykülerine taşımıştır."
+                info: "İkinci Yeni şiirinin önemli ismidir. Gaziantepli olduğu için şiirlerinde sıkça çocukluğunun Antep'ine ve güneyin sıcaklığına atıfta bulunur."
             },
             {
                 name: "Ömer Asım Aksoy",
@@ -149,12 +117,12 @@ const provinceData = {
         ],
         products: [
             {
-                name: "Gaziantep Baklavası",
-                info: "İncecik yufkaların arasına bol Antep fıstığı serpilerek yapılan ve şerbetle tatlandırılan, AB coğrafi işaret tescilli dünyaca ünlü tatlıdır."
+                name: "Antep Fıstığı",
+                info: "'Yeşil Altın' olarak bilinen, tatlılardan yemeklere kadar her şeye lezzet katan, bölgenin en değerli tarım ürünü."
             },
             {
-                name: "Beyran Çorbası",
-                info: "Kuzu eti, pirinç, sarımsak ve acı biberle yüksek ateşte hazırlanan, genellikle sabah kahvaltılarında tüketilen çok güçlü ve lezzetli bir çorbadır."
+                name: "Gaziantep Baklavası",
+                info: "İncecik yufkaların fıstıkla buluştuğu, AB tarafından tescillenmiş ilk Türk ürünü. Ustalık ve sabır işi bir lezzet şaheseri."
             },
             {
                 name: "Kutnu Kumaşı",
@@ -166,7 +134,7 @@ const provinceData = {
         writers: [
             {
                 name: "Ahmet Hamdi Tanpınar",
-                info: "'Bursa'da Zaman' şiiriyle şehri ebedileştirmiştir. Bursa'nın tarihi dokusunu ve maneviyatını eserlerinde sıkça işlemiştir."
+                info: "'Bursa'da Zaman' şiiriyle şehrin tarihi dokusunu, Osmanlı mirasını ve su sesini ebedileştirmiştir. Bursa, onun için maziyle bugünün iç içe olduğu bir rüyadır."
             },
             {
                 name: "Süleyman Çelebi",
@@ -175,16 +143,16 @@ const provinceData = {
         ],
         products: [
             {
-                name: "İskender Kebap",
-                info: "Pideli, dönerli, yoğurtlu ve üzerine kızgın tereyağı dökülerek servis edilen, Bursa ile özdeşleşmiş dünyaca ünlü bir kebap türüdür."
-            },
-            {
-                name: "Kestane Şekeri",
-                info: "Uludağ'da yetişen kestanelerin şeker şerbetinde kaynatılmasıyla yapılan, Bursa'nın en bilinen tatlı hediyeliğidir."
+                name: "Bursa Şeftalisi",
+                info: "Aromasını ve lezzetini Uludağ'ın serin havasından alan, Bursa ovasının bereketiyle yetişen dünyaca ünlü meyve."
             },
             {
                 name: "Bursa İpeği",
-                info: "Tarihi İpek Yolu'nun önemli bir durağı olan Bursa'da yüzyıllardır üretilen yüksek kaliteli ve zarif ipekli dokumalar."
+                info: "Tarihi İpek Yolu'nun en önemli durağı olan Bursa'da yüzyıllardır üretilen, dünyanın en kaliteli ipekli dokumaları."
+            },
+            {
+                name: "İskender Kebap",
+                info: "Pideli, dönerli, yoğurtlu ve üzerine kızgın tereyağı dökülerek servis edilen, Bursa ile özdeşleşmiş dünyaca ünlü bir kebap türüdür."
             }
         ]
     },
@@ -218,21 +186,17 @@ const provinceData = {
         writers: [
             {
                 name: "Cahit Sıtkı Tarancı",
-                info: "'Otuz Beş Yaş' şiiriyle tanınan, ölüm teması ve yaşama sevinci arasındaki ikilemi işleyen usta şairdir. Evi Diyarbakır'da müzedir."
+                info: "'Yaş otuz beş, yolun yarısı eder' dizesiyle hafızalara kazınan, yaşam ve ölüm temasını en güçlü işleyen şairlerimizdendir. Evi müzedir."
             },
             {
                 name: "Ahmed Arif",
                 info: "'Hasretinden Prangalar Eskittim' kitabıyla bilinen, Anadolu insanının acılarını, umutlarını ve direncini lirik bir dille anlatan şairdir."
-            },
-            {
-                name: "Ali Emîrî Efendi",
-                info: "Kaşgarlı Mahmud'un 'Divanü Lügati't-Türk' eserini bularak Türk kültürüne kazandıran büyük kitap dostu ve araştırmacıdır."
             }
         ],
         products: [
             {
                 name: "Diyarbakır Karpuzu",
-                info: "Devasa boyutlarıyla ünlü (bazen 50 kg'ı aşan), Sürme, Pembe gibi çeşitleri olan, kentin sembolü haline gelmiş bir meyvedir."
+                info: "Ağırlığı 50 kiloyu bulabilen devasa boyutlarıyla ünlü, güvercin gübresiyle Dicle nehri kenarında yetiştirilen kentin sembolü."
             },
             {
                 name: "Örgü Peyniri",
@@ -244,41 +208,25 @@ const provinceData = {
             }
         ]
     },
-    "Trabzon": {
+    "Samsun": {
         writers: [
             {
+                name: "Orhan Gencebay",
+                info: "Samsun doğumlu efsanevi sanatçı. Besteci, söz yazarı, bağlama virtüözü ve Türk müziğinde bir devri başlatan isimdir."
+            },
+            {
                 name: "Bedri Rahmi Eyüboğlu",
-                info: "Şair ve ressam. Karadeniz insanını, doğasını ve renklerini hem tuvalinde hem de şiirlerinde coşkuyla işlemiştir."
-            },
-            {
-                name: "Sunay Akın",
-                info: "Şair, yazar ve araştırmacı. Yakın tarihin bilinmeyen ayrıntılarını ve İstanbul-Trabzon bağlantılarını sıcak bir dille anlatır."
-            },
-            {
-                name: "Hasan İzzettin Dinamo",
-                info: "Trabzon doğumlu usta yazar. Kurtuluş Savaşı'nı destansı bir dille anlattığı 'Kutsal İsyan' ve 'Kutsal Barış' romanlarıyla tanınır."
+                info: "Aslen Trabzonlu olsa da hayatının bir dönemi Karadeniz'in bu büyük şehrinde geçmiştir."
             }
         ],
         products: [
             {
-                name: "Kuymak (Muhlama)",
-                info: "Mısır unu, tereyağı ve yöresel peynirin (kolot veya telli) muhteşem uyumuyla yapılan, uzayan kıvamıyla meşhur Karadeniz kahvaltılığıdır."
+                name: "Samsun Pidesi (Bafra/Terme)",
+                info: "İncecik, çıtır hamuru ve özel kıymalı harcıyla yapılan, özellikle pazar kahvaltılarının vazgeçilmezi olan meşhur kapalı pide."
             },
             {
-                name: "Akçaabat Köftesi",
-                info: "Bol sarımsaklı, yerli dana etinden yapılan ve ızgarada pişirilen, Trabzon'un Akçaabat ilçesiyle özdeşleşmiş coğrafi işaretli bir lezzettir."
-            },
-            {
-                name: "Hamsi",
-                info: "Karadeniz mutfağının baş tacı. Tavasından pilavına, çorbasından tatlısına kadar onlarca çeşit yemeği yapılan efsanevi balık."
-            },
-            {
-                name: "Vakfıkebir Ekmeği",
-                info: "Taş fırınlarda pişirilen, devasa boyutlarıyla bilinen, kalın kabuklu ve içi yumuşacık, uzun süre bayatlamayan meşhur Trabzon ekmeği."
-            },
-            {
-                name: "Laz Böreği",
-                info: "İsmine aldanmayın; ince yufkaların arasına muhallebi konulup şerbetlenmesiyle yapılan, üzerine karabiber serpilebilen nefis bir tatlıdır."
+                name: "Simit",
+                info: "Samsun simidi, pekmezleme yöntemi ve çıtırlığıyla diğerlerinden ayrılan kendine has bir lezzettir."
             }
         ]
     },
@@ -286,7 +234,7 @@ const provinceData = {
         writers: [
             {
                 name: "Yaşar Kemal",
-                info: "Türk edebiyatının dev çınarı. 'İnce Memed' serisiyle Çukurova'nın toprağını, insanını, haksızlığa başkaldırısını destansı bir dille dünyaya duyurmuştur."
+                info: "Edebiyatımızın koca çınarı. 'İnce Memed' ile Çukurova'nın toprağını, ırgatlarını ve haksızlığa başkaldıran insanını dünyaya anlatmıştır."
             },
             {
                 name: "Orhan Kemal",
@@ -296,15 +244,15 @@ const provinceData = {
         products: [
             {
                 name: "Adana Kebap",
-                info: "'Zırh' adı verilen büyük bıçakla kıyılan kuzu etinin, kuyruk yağı ve baharatla yoğrulup şişte pişirilmesiyle yapılan dünyaca ünlü kebap."
+                info: "'Zırh' ile elde kıyılan kuzu etinin kuyruk yağı ve baharatla yoğrulup şişte pişirilmesiyle yapılan tescilli efsane lezzet."
+            },
+            {
+                name: "Pamuk (Beyaz Altın)",
+                info: "Bölgenin sanayisinin ve tarımının can damarı, Çukurova'nın bereketli topraklarında yetişen stratejik ürün."
             },
             {
                 name: "Şalgam Suyu",
                 info: "Siyah havuç ve şalgam turpundan yapılan, fermente, mayhoş ve isteğe göre acılı içilen, kebapların vazgeçilmez eşlikçisi."
-            },
-            {
-                name: "Bici Bici",
-                info: "Rendelenmiş buz, nişasta muhallebisi, gül şerbeti ve pudra şekeriyle yapılan, Adana'nın kavurucu sıcaklarında serinleten hafif bir tatlı."
             }
         ]
     },
@@ -330,29 +278,25 @@ const provinceData = {
             }
         ]
     },
-    "Sivas": {
+    "Şanlıurfa": {
         writers: [
             {
-                name: "Aşık Veysel",
-                info: "Gönül gözüyle gören büyük halk ozanı. 'Uzun ince bir yoldayım' gibi ölümsüz eserleriyle insan sevgisini, doğayı ve sadakati anlatmıştır."
-            },
-            {
-                name: "Pir Sultan Abdal",
-                info: "16. yüzyıl halk şairi. Alevi-Bektaşi geleneğinin en önemli temsilcilerinden. Deyişleri yüzyıllardır dilden dile dolaşır."
+                name: "Şair Nabi",
+                info: "17. yüzyıl Divan edebiyatının en büyük şairlerindendir. Didaktik (öğretici) şiirleri ve hikmetli sözleriyle tanınır."
             }
         ],
         products: [
             {
-                name: "Sivas Köftesi",
-                info: "Sadece et, tuz ve çok az ekmek kullanılarak yapılan, baharatsız olmasıyla etin gerçek tadını ön plana çıkaran tescilli bir lezzettir."
+                name: "İsot",
+                info: "Özel biberlerin güneşte kurutulup fermente edilmesiyle elde edilen, Urfa mutfağının vazgeçilmez baharatı."
             },
             {
-                name: "Madımak",
-                info: "Sivas kırsalında kendiliğinden yetişen, bahar aylarında toplanıp yemeği yapılan, türkülere konu olmuş şifalı bir ot."
+                name: "Göbeklitepe",
+                info: "'Tarihin Sıfır Noktası'. Dünyanın bilinen en eski tapınak kompleksi. İnsanlık tarihini yeniden yazdıran arkeolojik keşif."
             },
             {
-                name: "Sivas Katmeri",
-                info: "Bol tereyağı ile yapılan, tel tel ayrılan, dışı çıtır içi yumuşak, kahvaltıların vazgeçilmezi yöresel bir hamur işidir."
+                name: "Çiğ Köfte",
+                info: "Bulgur, isot, salça ve baharatların ustalıkla yoğrulmasıyla yapılan, pişirilmeden hazırlanan kadim bir lezzet."
             }
         ]
     },
@@ -381,48 +325,48 @@ const provinceData = {
     "Kahramanmaraş": {
         writers: [
             {
-                name: "Cahit Zarifoğlu",
-                info: "'Yedi Güzel Adam'ın zarif şairi. Çocuk edebiyatından şiire kadar pek çok türde eser vermiş, mistik ve içsel bir dil kullanmıştır."
-            },
-            {
-                name: "Erdem Bayazıt",
-                info: "'Sebep Ey' ve 'Risaleler' gibi şiir kitaplarıyla tanınan, davasını şiirine taşıyan, tok sesli ve epik anlatımlı şairdir."
+                name: "Yedi Güzel Adam",
+                info: "Cahit Zarifoğlu, Erdem Bayazıt, Rasim Özdenören gibi isimlerin oluşturduğu, edebiyatımızın güçlü sesi. Maraş, bu isimlerle 'Şiirin ve Edebiyatın Başkenti' olmuştur."
             },
             {
                 name: "Necip Fazıl Kısakürek",
-                info: "Türk şiirinin 'Sultanü'ş Şuara'sı (Şairler Sultanı). Düşünce ve şiir dünyamızda derin izler bırakmış, Maraşlı köklü bir aileye mensuptur."
+                info: "Şairler Sultanı. Düşünce ve şiir dünyamızda derin izler bırakmış, kökenleri Maraş'a dayanan büyük usta."
             }
         ],
         products: [
             {
                 name: "Maraş Dondurması",
-                info: "Keçi sütü ve salep ile yapılan, kıvamı ve lezzetiyle dünyaca ünlü, bıçakla kesilecek kadar sert 'dövme' dondurma."
+                info: "Keçi sütü ve salep ile yapılan, dövülerek hazırlanan, bıçakla kesilecek kadar sert, lezzetli ve dünyaca ünlü bir dondurma."
             },
             {
-                name: "Maraş Tarhanası",
-                info: "Sadece çorba olarak değil, kuruyemiş gibi de tüketilen (firik), yoğurt ve buğdayın mayalanmasıyla yapılan özel bir tarhana türü."
+                name: "Maraş Biberi",
+                info: "Kendine has aroması, rengi ve acılığıyla yemeklere lezzet katan, coğrafi işaretli meşhur biber."
             }
         ]
     },
     "Antalya": {
         writers: [
             {
+                name: "Altın Portakal Film Festivali",
+                info: "Bir yazar değil, bir kültür markası. Türkiye'nin en köklü sinema festivali, sanatın ve kültürün Akdeniz'deki kalbidir."
+            },
+            {
                 name: "Metin Demirtaş",
-                info: "Antalya'nın yetiştirdiği önemli şairlerden. 'Görüşme Yeri' ve 'Hançer ve Lirik' gibi eserleriyle tanınır."
+                info: "Antalya'nın yetiştirdiği önemli şairlerden. Şiirlerinde Akdeniz duyarlılığını işler."
             }
         ],
         products: [
             {
+                name: "Finike Portakalı",
+                info: "Coğrafi işaretli bu portakal, kendine has aroması ve sululuğuyla dünyanın en lezzetli portakal türlerinden biri kabul edilir."
+            },
+            {
                 name: "Antalya Piyazı",
-                info: "Tahinli sosuyla diğer piyazlardan ayrılan, coğrafi işaretli, Antalya'ya özgü çok meşhur bir fasulye yemeğidir."
+                info: "Tahinli sosuyla diğer piyazlardan ayrılan, Antalya'ya özgü çok meşhur bir fasulye yemeğidir."
             },
             {
                 name: "Turunç Reçeli",
                 info: "Bölgenin narenciye bahçelerinden toplanan turunç kabuklarından yapılan, hafif acımtırak ve aromatik bir reçeldir."
-            },
-            {
-                name: "Yanıksı Dondurma",
-                info: "Keçi sütünün kontrollü olarak biraz 'yakılması' ile yapılan, kendine has isli tadıyla bilinen geleneksel bir dondurma."
             }
         ]
     },
@@ -449,6 +393,28 @@ const provinceData = {
             {
                 name: "Sardalya",
                 info: "Çanakkale Boğazı'nın soğuk sularında avlanan, özellikle asma yaprağında ızgarası meşhur olan balık."
+            }
+        ]
+    },
+    "Van": {
+        writers: [
+            {
+                name: "Yaşar Kemal (Van Gölü)",
+                info: "Usta yazar, Van Gölü'nü ve Akdamar Adası'nı büyüleyici tasvirlerle anlatmış, bu doğal güzelliklerin korunmasına öncülük etmiştir."
+            }
+        ],
+        products: [
+            {
+                name: "Van Kedisi",
+                info: "Bir gözü mavi, diğer gözü kehribar rengi olan, suyu ve yüzmeyi seven, dünyadaki tek ve en özel kedi türü."
+            },
+            {
+                name: "Van Kahvaltısı",
+                info: "Otlu peynir, murtuğa, kavut gibi onlarca çeşit doğal ürünün bir arada sunulduğu, Guinness rekorlar kitabına girmiş efsane sofra."
+            },
+            {
+                name: "Otlu Peynir",
+                info: "Bahar aylarında dağlardan toplanan şifalı otlarla yapılan, küplerde basılarak olgunlaştırılan yöresel peynir."
             }
         ]
     },
@@ -482,7 +448,7 @@ const provinceData = {
         writers: [
             {
                 name: "Yusuf Atılgan",
-                info: "Modern Türk edebiyatının öncülerinden. Manisa'da geçen 'Anayurt Oteli' ve 'Aylak Adam' romanlarında yalnızlığı ve yabancılaşmayı derinlemesine işlemiştir."
+                info: "Türk edebiyatının en önemli psikolojik romanlarından 'Anayurt Oteli'nin yazarıdır. Manisalı olup, kasaba yaşamını ve bireyin yalnızlığını ustaca işlemiştir."
             },
             {
                 name: "İlhan Berk",
@@ -492,7 +458,7 @@ const provinceData = {
         products: [
             {
                 name: "Mesir Macunu",
-                info: "41 çeşit baharatla hazırlanan, Kanuni Sultan Süleyman döneminden beri şifa niyetine saçılan tarihi ve geleneksel bir macundur."
+                info: "41 çeşit baharatla hazırlanan, Kanuni Sultan Süleyman'ın annesi Hafsa Sultan'ı iyileştirdiğine inanılan tarihi ve şifalı bir karışımdır."
             },
             {
                 name: "Kırkağaç Kavunu",
@@ -504,65 +470,57 @@ const provinceData = {
             }
         ]
     },
-    "Kütahya": {
+    "Kayseri": {
         writers: [
             {
-                name: "Evliya Çelebi",
-                info: "Dünya tarihinin en büyük seyyahı. Ailesi Kütahyalıdır ve 'Seyahatname'sinde Kütahya'yı çok detaylı ve sevgiyle anlatır."
-            },
-            {
-                name: "Ahmet Yakupoğlu",
-                info: "Kütahya'nın yetiştirdiği 'Neyzen Ressam'. Minyatür tarzı resimleri ve neyzenliği ile şehrin kültür elçisidir."
+                name: "Mimar Sinan",
+                info: "Kayseri'nin Ağırnas köyünde doğan 'Koca Sinan'. Yaptığı camiler, köprüler ve külliyelerle imparatorluğun silüetini çizen dahi mimar."
             }
         ],
         products: [
             {
-                name: "Kütahya Porseleni",
-                info: "Kütahya toprağının sanata dönüştüğü, yüzyıllardır süregelen çini ve seramik geleneğinin modern temsilcisidir."
+                name: "Pastırma",
+                info: "Erciyes'in rüzgarında kurutulan, çemenle kaplanan ve incecik doğranan, Kayseri ile özdeşleşmiş dünyaca ünlü et ürünü."
             },
             {
-                name: "Cimcik Aşı",
-                info: "Küçük küçük 'cimciklenerek' şekil verilen hamurların yoğurt ve sarımsaklı sosla servis edildiği yöresel bir mantı türü."
+                name: "Kayseri Mantısı",
+                info: "Bir kaşığa 40 tane sığdırılan, el emeği göz nuru, yoğurt ve sosla servis edilen efsanevi hamur işi."
             }
         ]
     },
-    "Afyonkarahisar": {
+    "Balıkesir": {
         writers: [
             {
-                name: "Osman Yüksel Serdengeçti",
-                info: "Dava adamı, siyasetçi ve şair. Keskin kalemi ve 'Serdengeçti' dergisiyle tanınır."
+                name: "Ömer Seyfettin",
+                info: "Gönen doğumludur. 'Kaşağı', 'Ant', 'Falaka' gibi hikayeleriyle modern Türk öykücülüğünün temellerini atmış büyük yazardır."
             }
         ],
         products: [
             {
-                name: "Afyon Sucuğu",
-                info: "Manda ve dana etinin özel baharatlarla harmanlanıp kurutulmasıyla yapılan, coğrafi işaretli dünyaca ünlü fermente sucuk."
+                name: "Zeytin ve Zeytinyağı",
+                info: "Edremit Körfezi ve Kaz Dağları'nın oksijeniyle yetişen zeytinlerden elde edilen, dünyanın en kaliteli zeytinyağları."
             },
             {
-                name: "Afyon Kaymağı",
-                info: "Manda sütünden elde edilen, yoğun kıvamlı ve lezzetli, kahvaltıların ve tatlıların (özellikle ekmek kadayıfının) vazgeçilmezi."
-            },
-            {
-                name: "Lokum",
-                info: "Afyon, kaymaklı lokumun başkentidir. Yumuşak kıvamı ve manda kaymağıyla yapılan çeşitleri çok meşhurdur."
+                name: "Höşmerim",
+                info: "Taze peynir, irmik ve şekerin buluştuğu, sarı renkli ve yumuşak kıvamlı, Balıkesir'e özgü meşhur peynir tatlısı."
             }
         ]
     },
-    "Uşak": {
+    "Hatay": {
         writers: [
             {
-                name: "Halid Ziya Uşaklıgil",
-                info: "Servet-i Fünun edebiyatının en büyük romancısı. 'Uşaklıgil' soyadını taşıyan yazarın ailesi Uşak kökenlidir (Helvacızadeler)."
+                name: "Cemil Meriç",
+                info: "Reyhanlı doğumlu mütefekkir. Türk düşünce hayatının en önemli ve derinlikli kalemlerinden. 'Bu Ülke' eseri başucu kitabıdır."
             }
         ],
         products: [
             {
-                name: "Uşak Tarhanası",
-                info: "Bol domates, biber ve yoğurtla 21 gün fermente edilerek hazırlanan, vitamin deposu, coğrafi işaretli meşhur çorbalık."
+                name: "Künefe",
+                info: "Tuzsuz özel peynir ve tel kadayıfın şerbetle buluşması. Hatay mutfağının (UNESCO Gastronomi şehri) en tatlı temsilcisi."
             },
             {
-                name: "Eşme Kilimi",
-                info: "Kök boya ile boyanmış yün iplerle dokunan, kendine has motifleri ve renkleriyle tanınan geleneksel el sanatı."
+                name: "Tepsi Kebabı",
+                info: "Zırhla çekilen kıymanın tepsiye yayılıp taş fırında pişirilmesiyle yapılan, baharatlı ve lezzetli yöresel kebap."
             }
         ]
     },
@@ -742,41 +700,25 @@ const provinceData = {
             },
             {
                 name: "Ara Güler - Afrodisias",
-                info: "Karacasu/Geyre. Ünlü foto muhabirinin keşfiyle dünya mirasına kazandırılan Afrodisias Antik Kenti. Ara Güler'in bu tesadüfi keşfi ve fotoğrafları, edebi ve tarihi birer belgedir."
-            },
-            {
-                name: "Tuncel Kurtiz",
-                info: "Ünlü sinema ve tiyatro oyuncusu, yönetmen, yapımcı ve senarist. Çocukluğunun bir kısmı Aydın'da geçmiş, son yıllarını Kaz Dağları eteklerinde geçirmiş ve hayatı doğayla iç içe yaşamıştır."
-            },
-            {
-                name: "Adnan Menderes",
-                info: "Siyasetçi ve devlet adamı. Aydınlı bir ailenin çocuğu olarak demokrasi tarihimizde önemli bir yer edinmiş, adına üniversite kurulmuş bir liderdir."
+                info: "Karacasu/Geyre. Ünlü foto muhabirinin keşfiyle dünya mirasına kazandırılan Afrodisias Antik Kenti ve heykeltıraşlık okulu."
             }
         ],
         products: [
             {
                 name: "Aydın İnciri",
-                info: "Dünyanın en kaliteli kuru inciri olarak kabul edilen, AB coğrafi işaretli, 'Sarı Lop' cinsiyle meşhur, şifa kaynağı bir meyvedir."
+                info: "'Dağlarından yağ, ovalarından bal akar' sözündeki bal. Dünya kuru incir üretiminin lideri, şifa kaynağı meyve."
             },
             {
                 name: "Zeytinyağı",
-                info: "Evliya Çelebi'nin 'Yağ akar' dediği, Ege'nin bereketli topraklarından elde edilen, asit oranı düşük, nefis aromalı ve yüksek kaliteli zeytinyağları."
+                info: "Bereketli Menderes ovalarının dağlarından süzülen altın sarısı, şifalı ve lezzetli yağ."
             },
             {
                 name: "Karacasu Çömleği",
-                info: "Kırmızı toprağın ustaların elinde sanata dönüştüğü, Karacasu ilçesine özgü, coğrafi işaretli geleneksel seramik ve çömlek ürünleri."
+                info: "Kırmızı toprağın ustaların elinde sanata dönüştüğü, Afrodisias'ın sanat mirasını yaşatan geleneksel çömlekçilik."
             },
             {
                 name: "Sümerbank Basma Fabrikası (Nazilli)",
-                info: "Genç Cumhuriyet'in yerli üretim simgesi. Sadece bir fabrika değil, baloları ve kütüphanesiyle bir kültür devrimi. Ayrıca işçileri taşıyan 'Gıdı Gıdı Treni' de kültürel belleğin bir parçasıdır."
-            },
-            {
-                name: "Çine Köftesi",
-                info: "Az ekmekli, bol etli, kendine has baharatlarıyla yoğrulan ve genellikle soğanla servis edilen, Aydın'ın Çine ilçesine özgü meşhur köfte."
-            },
-            {
-                name: "Paşa Böreği",
-                info: "El açması yufkaların et suyuyla ıslatılıp arasına kıymalı harç konularak kat kat döşenmesiyle yapılan, üzerine yoğurt dökülen yöresel lezzet."
+                info: "Genç Cumhuriyet'in yerli üretim ve kültür devrimi simgesi. İşçileri taşıyan 'Gıdı Gıdı Treni' yerel belleğin parçasıdır."
             }
         ]
     },
