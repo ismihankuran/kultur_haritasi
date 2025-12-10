@@ -33,9 +33,13 @@
                 <h1>Türkçemizin Coğrafyası: Edebi Kişiler ve Yöresel Ürünler Haritası</h1>
                 <p>Şehirlerin edebi mirasını ve kültürel zenginliklerini keşfedin.</p>
             </div>
-            <button id="about-btn" class="about-btn" aria-label="Proje Hakkında">
-                <span class="info-icon">?</span> Hakkında
-            </button>
+            <div class="header-buttons" style="display: flex; gap: 10px;">
+                <button id="legal-btn" class="about-btn"
+                    style="border-color: #ffcccb; color: #ffcccb; margin-left: 0;"><span class="icon">⚠️</span> Yasal
+                    Uyarı</button>
+                <button id="about-btn" class="about-btn" style="margin-left: 0;"><span class="icon">ℹ️</span>
+                    Hakkında</button>
+            </div>
         </header>
 
         <main id="map-container">
@@ -113,11 +117,10 @@
                     </section>
 
                     <section class="info-section">
-                        <h3><span class="icon">�</span> Okulumuz</h3>
+                        <h3><span class="icon">🏫</span> Okulumuz</h3>
                         <p style="color: #444; line-height: 1.6;">
-                            Bu proje, <strong>Denizli Adalet Ortaokulu</strong> bünyesinde hazırlanmıştır. Eğitimin ve
-                            kültürün buluşma noktası olan okulumuz, öğrencilerimizi akademik ve sosyal yönden hayata
-                            hazırlamayı ilke edinmiştir.
+                            Eğitimin ve kültürün buluşma noktası olan <strong>Denizli Adalet Ortaokulu</strong>,
+                            öğrencilerimizi akademik ve sosyal yönden hayata hazırlamayı ilke edinmiştir.
                         </p>
                         <a href="https://adaletortaokulu.meb.k12.tr/" target="_blank" class="school-link">
                             🌐 Okul Web Sitesini Ziyaret Et
@@ -125,14 +128,35 @@
                     </section>
 
                     <section class="info-section">
-                        <h3><span class="icon">�🎯</span> Proje Amacı</h3>
-                        <p style="color: #444; line-height: 1.6;">
+                        <h3><span class="icon">🎯</span> Proje Amacı</h3>
                         <p style="color: #444; line-height: 1.6;">
                             Bu proje, Denizli Adalet Ortaokulu öğrencileri ve tüm kültür meraklısı öğrenciler için, Türk
                             Dili ve Edebiyatı ile coğrafi kültürümüzü dijital ortamda keşfetmeleri amacıyla gönüllü
                             olarak hazırlanmış interaktif bir web uygulamasıdır.
                         </p>
                     </section>
+                </div>
+            </div>
+        </div>
+
+        <!-- Yasal Uyarı Modal -->
+        <div id="legal-modal" class="modal hidden">
+            <div class="modal-content glass-effect">
+                <button id="legal-close-btn" class="close-btn">&times;</button>
+                <div class="modal-header">
+                    <h2>Yasal Uyarı ve Bilgilendirme</h2>
+                    <span class="decorative-line"></span>
+                </div>
+                <div class="modal-body">
+                    <p style="color: #444; line-height: 1.6; text-align: justify;">
+                        Bu çalışma, Türkiye'nin zengin kültürel mirasını dijital ortamda görselleştirmek amacıyla
+                        hazırlanmıştır. İçerdiği veri setinin genişliği ve kapsamı nedeniyle, içerik üretim süreçlerinde
+                        yapay zeka destekli araçlardan faydalanılmıştır. Bilgilerin doğruluğu titizlikle kontrol
+                        edilmeye çalışılsa da, sehven oluşabilecek maddi hatalar veya güncelliğini yitirmiş bilgiler
+                        bulunabilir. Bu harita bir eğitim materyali niteliğinde olup, akademik referans olarak
+                        kullanılmadan önce teyit edilmesi önerilir. Tespit ettiğiniz düzeltmeleri bizimle paylaşmanızdan
+                        memnuniyet duyarız.
+                    </p>
                 </div>
             </div>
         </div>

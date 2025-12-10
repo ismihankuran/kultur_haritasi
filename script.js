@@ -934,6 +934,28 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // Legal Modal Elements
+    const legalModal = document.getElementById('legal-modal');
+    const legalBtn = document.getElementById('legal-btn');
+    const closeLegalBtn = document.getElementById('legal-close-btn');
+
+    // Open Legal Modal
+    legalBtn.addEventListener('click', () => {
+        legalModal.classList.remove('hidden');
+    });
+
+    // Close Legal Modal
+    closeLegalBtn.addEventListener('click', () => {
+        legalModal.classList.add('hidden');
+    });
+
+    // Close Legal Modal on Outside Click
+    legalModal.addEventListener('click', (e) => {
+        if (e.target === legalModal) {
+            legalModal.classList.add('hidden');
+        }
+    });
+
     // Helper function to create content list
     function createContentList(items, isPerson = false) {
         if (!items || items.length === 0) return document.createTextNode("Bilgi bulunamadı.");
